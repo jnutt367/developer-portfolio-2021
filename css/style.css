@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+.main-nav {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
