@@ -1,9 +1,55 @@
 * {
 	box-sizing: border-box;
+	background-color: black;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
 }
+
+.logo {
+	right: 85%;
+	position: absolute;
+	cursor: pointer;
+}
+
 .main-nav {
+	font-family: 'Montserrat';
+	font-weight: 900;
 	display: flex;
 	justify-content: space-evenly;
 	list-style-type: none;
+}
+.main-nav li a {
+	text-decoration: none;
+	color: skyblue;
+}
+.main-nav li a:hover {
+	color: white;
+}
+.main-nav li a:active {
+	color: silver;
+}
+.header {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.contact-info {
+	text-align: center;
+	color: skyblue;
+}
+.contact-info p a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+.description {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+.social-icons { 
+	background: black;
+	display: flex;
+	justify-content: space-evenly; 
 }
 
