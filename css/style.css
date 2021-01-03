@@ -97,6 +97,7 @@ section {
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .footer img {
 	height: 50px;
