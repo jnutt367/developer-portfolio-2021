@@ -116,7 +116,7 @@ button {
 	  grid-template-columns: 1fr;
   }
   .work img {
-	  height: 300px;
-	  width: 400px;
+	  height: 250px;
+	  width: 250px;
   }
 }
