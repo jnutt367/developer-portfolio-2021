@@ -52,14 +52,20 @@ body{
 .social-icons { 
 	display: flex;
 	justify-content: space-evenly; 
+	padding-bottom: 75px;
 }
 section {
 	background-color: white;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 }
 .bio h1{
 	background-color: white;
 	color: skyblue;
+	padding-left: 25px;
+}
+.bio p {
+	text-align: center;
+	padding: 15px;
 }
 
