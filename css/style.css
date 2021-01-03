@@ -65,7 +65,13 @@ section {
 	padding-left: 25px;
 }
 .bio p {
-	text-align: center;
+	text-align: left;
+	font-weight: 500;
 	padding: 15px;
+}
+.skills {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
 }
 
