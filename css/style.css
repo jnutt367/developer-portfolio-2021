@@ -23,10 +23,11 @@ body{
 	font-family: 'Montserrat';
 	font-weight: 900;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-end;
 	list-style-type: none;
 }
 .main-nav li a {
+	padding: 15px;
 	text-decoration: none;
 	color: skyblue;
 }
