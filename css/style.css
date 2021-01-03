@@ -88,11 +88,26 @@ section {
 }
 .work img {
 	height: 300px;
-	width: 350px;
+	width: 500px;
+	padding-right: 25px;
+	padding-bottom: 25px;
 }
-
-@media only screen and (max-width: 500px) {
-  body {
-  background-color: lightblue;
+.footer {
+	padding-top: 75px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.footer img {
+	height: 50px;
+	width: 50px;
+}
+@media only screen and (max-width: 650px) {
+  .work {
+	  grid-template-columns: 1fr;
+  }
+  .work img {
+	  height: 300px;
+	  width: 400px;
   }
 }
