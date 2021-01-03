@@ -87,6 +87,7 @@ section {
 	grid-gap: 10px;
 }
 .work img {
+	margin-left: 100px;
 	height: 300px;
 	width: 500px;
 	padding-right: 25px;
@@ -118,6 +119,6 @@ button {
   }
   .work img {
 	  height: 250px;
-	  width: 250px;
+	  width: 250px;	  
   }
 }
