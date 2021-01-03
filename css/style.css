@@ -9,9 +9,13 @@ body{
 }
 
 .logo {
-	right: 85%;
+	right: 80%;
 	position: absolute;
 	cursor: pointer;
+	transition: transforms;
+}
+.logo:hover {
+	transform: scale(1.3) rotate(45deg);
 }
 
 .main-nav {
