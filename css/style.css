@@ -9,7 +9,7 @@ body{
 }
 
 .logo {
-	right: 80%;
+	right: 75%;
 	position: absolute;
 	cursor: pointer;
 	transition: transforms;
@@ -71,6 +71,11 @@ body{
 	display: flex;
 	justify-content: space-evenly; 
 	padding-bottom: 75px;
+	transition: transforms;
+}
+.social-icons a:hover {
+	
+	transform: scale(1.07);
 }
 section {
 	background-color: white;
@@ -93,6 +98,7 @@ section {
 	grid-template-columns: 1fr 1fr;
 	
 }
+
 .work {
 	margin-top: 0;
 	background-color: #f8f8ff;
@@ -124,13 +130,17 @@ section {
 	cursor: pointer;
 	transition: transforms;
 	transition-duration: 3s;
-	border: none;
+	border: 1px solid grey;
 }
 .work button:hover {
 	background-color: grey;
 	color: skyblue;
 	transform: scale(1.05);
 }
+.work button a:active {
+	background-color: pink;
+}
+
 .footer {
 	padding-top: 75px;
 	display: grid;
@@ -164,6 +174,7 @@ section {
 		display: flex;
 		color: white;
 		flex-direction: flex-end;
+		margin-right: 50px;
 		padding-right: 50px;
 		cursor: pointer;
 	}
