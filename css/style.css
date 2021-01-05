@@ -107,6 +107,9 @@ section {
 	width: 500px;
 	border: 3px inset silver;
 }
+.work h4 { 
+	padding-left: 25px;
+}
 .work button {
 	height: 30px;
 	width: 100px;
@@ -151,14 +154,18 @@ section {
 	cursor: pointer;
 }
 @media only screen and (max-width: 650px) {
-  .work {
+    .main-nav li{
+		display: none;
+	}
+
+    .work {
 	  display: grid;
 	  justify-content: center;
 	  align-items: center;
 	  grid-template-columns: 1fr;
-  }
-  .work img {
+    }
+    .work img {
 	  height: 250px;
 	  width: 250px;	  
-  }
+    }  
 }
