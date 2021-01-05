@@ -15,7 +15,7 @@ body{
 	transition: transforms;
 }
 .logo:hover {
-	transform: scale(1.3) rotate(360deg);
+	transform: scale(1.3) rotate(45deg);
 }
 
 .main-nav {
@@ -43,8 +43,9 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
 .header img {
-         width: 300px;
+	width 300px;
 }
 .contact-info {
 	text-align: center;
@@ -78,7 +79,7 @@ section {
 .bio p {
 	text-align: left;
 	font-weight: 500;
-	padding: 15px;
+	padding-left: 50px;
 }
 .skills {
 	display: grid;
@@ -116,7 +117,7 @@ section {
 }
 
 button {
-	margin-left: -20px;
+	margin-left: -25px;
 	height: 30px;
 	width: 100px; 
 	color: white;
