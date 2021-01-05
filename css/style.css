@@ -15,7 +15,7 @@ body{
 	transition: transforms;
 }
 .logo:hover {
-	transform: scale(1.3) rotate(45deg);
+	transform: scale(1.3) rotate(360deg);
 }
 
 .main-nav {
@@ -104,6 +104,7 @@ section {
 	width: 500px;
 	padding-right: 25px;
 	padding-bottom: 25px;
+	border: 3px inset silver;
 }
 .footer {
 	padding-top: 75px;
