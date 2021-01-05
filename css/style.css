@@ -15,7 +15,7 @@ body{
 	transition: transforms;
 }
 .logo:hover {
-	transform: scale(1.3) rotate(45deg);
+	transform: scale(1.3) rotate(360deg);
 }
 
 .main-nav {
@@ -39,6 +39,7 @@ body{
 	color: lightgrey;
 }
 .header {
+        margin-top: 200px;
 	display: grid;
 	justify-content: center;
 	align-items: center;
