@@ -45,6 +45,7 @@ body{
 }
 .header img {
          width: 300px;
+}
 .contact-info {
 	text-align: center;
 	color: skyblue;
@@ -115,7 +116,7 @@ section {
 }
 
 button {
-	margin-left: -25px;
+	margin-left: -20px;
 	height: 30px;
 	width: 100px; 
 	color: white;
