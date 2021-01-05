@@ -39,6 +39,9 @@ body{
 .main-nav li a:active {
 	color: lightgrey;
 }
+.main-nav button {
+	display: none;
+}
 .header {
 	display: grid;
 	justify-content: center;
@@ -157,7 +160,12 @@ section {
     .main-nav li{
 		display: none;
 	}
-
+	.main-nav button {
+		display: flex;
+		color: white;
+		flex-direction: flex-end;
+		padding-right: 50px;
+	}
     .work {
 	  display: grid;
 	  justify-content: center;
