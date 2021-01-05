@@ -104,8 +104,6 @@ section {
 	margin-left: 50px;
 	height: 300px;
 	width: 500px;
-	padding-right: 25px;
-	padding-bottom: 25px;
 	border: 3px inset silver;
 }
 .work button {
@@ -114,6 +112,12 @@ section {
 	margin-bottom: 25px;
 	color: white;
 	background-color: skyblue;
+	cursor: pointer;
+	transition: transforms;
+	transition-duration: 3s;
+}
+.work button:hover {
+	transform: scale(1.05);
 }
 .footer {
 	padding-top: 75px;
@@ -135,9 +139,13 @@ section {
 	color: white;
 	background-color: skyblue;
 	border-radius: 5px;
+	cursor: pointer;
 }
 @media only screen and (max-width: 650px) {
   .work {
+	  display: grid;
+	  justify-content: center;
+	  align-items: center;
 	  grid-template-columns: 1fr;
   }
   .work img {
