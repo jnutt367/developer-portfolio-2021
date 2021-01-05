@@ -83,6 +83,7 @@ section {
 	text-align: left;
 	font-weight: 500;
 	padding-left: 50px;
+	padding-right: 40px;
 }
 .skills {
 	display: grid;
@@ -107,6 +108,8 @@ section {
 	border: 3px inset silver;
 }
 .work button {
+	height: 30px;
+	width: 100px;
 	text-align: center;
 	margin-left: 70px;
 	margin-bottom: 25px;
@@ -115,8 +118,11 @@ section {
 	cursor: pointer;
 	transition: transforms;
 	transition-duration: 3s;
+	border: none;
 }
 .work button:hover {
+	background-color: grey;
+	color: skyblue;
 	transform: scale(1.05);
 }
 .footer {
@@ -131,9 +137,12 @@ section {
 	height: 50px;
 	width: 50px;
 }
-
+.arrow {
+	margin-left: 15px;
+	color: red;
+}
 .footer button {
-	margin-left: -25px;
+	margin-left: -15px;
 	height: 30px;
 	width: 100px; 
 	color: white;
