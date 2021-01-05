@@ -165,6 +165,7 @@ section {
 		color: white;
 		flex-direction: flex-end;
 		padding-right: 50px;
+		cursor: pointer;
 	}
     .work {
 	  display: grid;
