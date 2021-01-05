@@ -44,6 +44,9 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+.header img {
+         height: 200px;
+         width: 200px;
 .contact-info {
 	text-align: center;
 	color: skyblue;
