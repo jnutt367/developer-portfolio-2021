@@ -39,7 +39,6 @@ body{
 	color: lightgrey;
 }
 .header {
-        margin-top: 200px;
 	display: grid;
 	justify-content: center;
 	align-items: center;
