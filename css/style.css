@@ -129,12 +129,13 @@ section {
 	background-color: skyblue;
 	cursor: pointer;
 	transition: transforms;
-	transition-duration: 3s;
+	transition-duration: 4s;
 	border: 1px solid grey;
 }
 .work button:hover {
 	background-color: grey;
-	color: skyblue;
+	color: white;
+	border: 1px solid skyblue;
 	transform: scale(1.05);
 }
 .work button a:active {
@@ -165,6 +166,11 @@ section {
 	background-color: skyblue;
 	border-radius: 5px;
 	cursor: pointer;
+}
+.footer button:hover {
+	background-color: grey;
+	color: skyblue;
+	border: 1px solid white;
 }
 @media only screen and (max-width: 650px) {
     .main-nav li{
