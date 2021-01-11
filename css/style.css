@@ -107,7 +107,7 @@ section {
 	color: skyblue;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
+	grid-gap: 25px;
 	margin-bottom: 25px;
 }
 .work img {
@@ -118,6 +118,8 @@ section {
 }
 .work h4 { 
 	padding-left: 25px;
+	padding-bottom: 50px;
+	color: grey;
 }
 .work button {
 	height: 30px;
