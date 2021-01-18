@@ -112,6 +112,7 @@ section {
 }
 .work img {
 	margin-left: 50px;
+	margin-bottom: 150px;
 	height: 500px;
 	width: 600px;
 	border: 3px inset silver;
@@ -197,3 +198,4 @@ section {
 	  width: 400px;	  
     }  
 }
+	
