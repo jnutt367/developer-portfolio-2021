@@ -1,41 +1,199 @@
 * {
-    background-color: black;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #0D0E0F;
 }
 
-.grid {
-    padding: 0;
-    margin: 0;
-    border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    height: 700px;
+.logo {
+	right: 75%;
+	position: absolute;
+	cursor: pointer;
+	transition: transforms;
+}
+.logo:hover {
+	transition-duration: 3s;
+	transform: scale(1.1) rotate(90deg);
 }
 
-.grid div {
-    width: 40px;
-    height: 40px;
-    border: 1px solid skyblue;
+.main-nav {
+	padding-top: 25px;
+	font-family: 'Montserrat';
+	font-weight: 300;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+.main-nav li a {
+	padding: 15px;
+	text-decoration: none;
+	color: skyblue;
+}
+.main-nav li a:hover {
+	font-weight: 900;
+	color: white;
+}
+.main-nav li a:active {
+	color: lightgrey;
+}
+.main-nav button {
+	display: none;
+}
+.header {
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
 
-.shooter {
-    background-image: linear-gradient(#333, rgb(187, 49, 49), #555);
+.header img {
+	padding-top: 100px;
+	padding-bottom: 25px;
+	width 300px;
+}
+.contact-info {
+	text-align: center;
+	color: skyblue;
+}
+.contact-info p a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+.description {
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+.social-icons { 
+	display: flex;
+	justify-content: space-evenly; 
+	padding-bottom: 75px;
+	transition: transforms;
+}
+.social-icons a:hover {
+	
+	transform: scale(1.07);
+}
+section {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.bio h1{
+	background-color: white;
+	color: skyblue;
+	padding-left: 25px;
+}
+.bio p {
+	text-align: left;
+	font-weight: 500;
+	padding-left: 50px;
+	padding-right: 40px;
+}
+.skills {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
 }
 
-.invader {
-    background-color: blueviolet;
-    border-radius: 10px;
+.work {
+	margin-top: 0;
+	background-color: #f8f8ff;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: skyblue;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	margin-bottom: 25px;
+}
+.work img {
+	margin-left: 50px;
+	height: 300px;
+	width: 500px;
+	border: 3px inset silver;
+}
+.work h4 { 
+	padding-left: 25px;
+	padding-bottom: 50px;
+	color: grey;
+}
+.work button {
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	margin-left: 70px;
+	margin-bottom: 25px;
+	color: white;
+	background-color: skyblue;
+	cursor: pointer;
+	transition: transforms;
+	transition-duration: 4s;
+	border: 1px solid grey;
+}
+.work button:hover {
+	background-color: grey;
+	color: white;
+	border: 1px solid skyblue;
+	transform: scale(1.05);
+}
+.work button a:active {
+	background-color: pink;
 }
 
-.boom {
-    background-color: crimson;
+.footer {
+	padding-top: 75px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 500px;
 }
-
-.laser {
-    background-color: orange;
+.footer img {
+	height: 50px;
+	width: 50px;
+}
+.arrow {
+	margin-left: 15px;
+	color: red;
+}
+.footer button {
+	margin-left: -15px;
+	height: 30px;
+	width: 100px; 
+	color: white;
+	background-color: skyblue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footer button:hover {
+	background-color: grey;
+	color: skyblue;
+	border: 1px solid white;
+}
+@media only screen and (max-width: 650px) {
+    .main-nav li{
+		display: none;
+	}
+	.main-nav button {
+		display: flex;
+		color: white;
+		flex-direction: flex-end;
+		margin-right: 50px;
+		padding-right: 50px;
+		cursor: pointer;
+	}
+    .work {
+	  display: grid;
+	  justify-content: center;
+	  align-items: center;
+	  grid-template-columns: 1fr;
+    }
+    .work img {
+	  height: 250px;
+	  width: 250px;	  
+    }  
 }
