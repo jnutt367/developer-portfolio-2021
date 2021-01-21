@@ -1,234 +1,61 @@
 * {
-    box-sizing: border-box;
-    background-color: transparent;
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-color: #0D0E0F;
-}
-
-.logo {
-    right: 75%;
-    position: absolute;
-    cursor: pointer;
-    transition: transforms;
-}
-
-.logo:hover {
-    transition-duration: 3s;
-    transform: scale(1.1) rotate(90deg);
-}
-
-.main-nav {
-    margin-right: 25px;
-    padding-top: 25px;
-    font-family: 'Montserrat';
-    font-weight: 300;
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-.main-nav li a {
-    padding: 15px;
-    text-decoration: none;
-    color: skyblue;
-}
-
-.main-nav li a:hover {
-    font-weight: 900;
-    color: white;
-}
-
-.main-nav li a:active {
-    color: lightgrey;
-}
-
-.main-nav button {
-    display: none;
-}
-
-.header {
+    background-color: black;
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-.header img {
-    padding-top: 100px;
-    padding-bottom: 25px;
-    width: 300px;
-    transition: transforms;
-}
-
-.header img:hover {
-    transform: scale(1.1) rotate(45deg);
-}
-
-.contact-info {
+h1,
+h3 {
+    color: whitesmoke;
     text-align: center;
-    color: skyblue;
 }
 
-.contact-info p a {
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
+span {
+    color: gold;
+    font-size: x-large;
 }
 
-.description {
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-.social-icons {
+.grid {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 75px;
-    transition: transforms;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
 }
 
-.social-icons a:hover {
-    transform: scale(1.07);
-}
-
-section {
-    background-color: white;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.bio h1 {
-    background-color: white;
-    color: skyblue;
-    padding-left: 25px;
-}
-
-.bio p {
-    text-align: left;
-    font-weight: 500;
-    padding-left: 50px;
-    padding-right: 40px;
-}
-
-.skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.work {
-    margin-top: 0;
-    background-color: #f8f8ff;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: skyblue;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
-    margin-bottom: 25px;
-}
-
-.work img {
-    box-shadow: 0px 20px 20px black;
-    margin-left: 50px;
-    height: 500px;
-    width: 600px;
-    border: 3px inset silver;
-    margin-bottom: 100px;
-    border-radius: 7px;
-}
-
-.work h4,
-p {
-    padding-left: 25px;
-    padding-bottom: 75px;
-    color: black;
-}
-
-.work button {
-    height: 50px;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    margin-left: 70px;
-    margin-bottom: 25px;
-    color: black;
-    background-color: skyblue;
-    cursor: pointer;
-    transition: transforms;
-    border: 1px solid grey;
-}
-
-.work button:hover {
-    background-color: grey;
-    color: white;
+.grid div {
+    width: 20px;
+    height: 20px;
     border: 1px solid skyblue;
-    transform: scale(1.05);
 }
 
-.work button a:active {
-    background-color: pink;
+.shooter {
+    background-color: transparent;
+    background-image: url('../assets/shooter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(#333, rgb(187, 49, 49), #555);*/
 }
 
-.footer {
-    padding-top: 75px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 500px;
+.invader {
+    background-color: blueviolet;
+    background-image: url('../assets/alien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
 }
 
-.footer img {
-    height: 50px;
-    width: 50px;
+.boom {
+    background-color: crimson;
 }
 
-.arrow {
-    margin-left: 15px;
-    color: red;
-    cursor: pointer;
-}
-
-.footer button {
-    margin-left: -15px;
-    height: 30px;
-    width: 100px;
-    color: white;
-    background-color: skyblue;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.footer button:hover {
-    background-color: grey;
-    color: skyblue;
-    border: 1px solid white;
-}
-
-@media only screen and (max-width: 650px) {
-    .main-nav li {
-        display: none;
-    }
-    .main-nav button {
-        display: flex;
-        color: white;
-        flex-direction: flex-end;
-        margin-right: 50px;
-        padding-right: 50px;
-        cursor: pointer;
-    }
-    .work {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr;
-    }
-    .work img {
-        height: 250px;
-        width: 400px;
-    }
+.laser {
+    background-color: orange;
 }
